@@ -1,7 +1,7 @@
 import dynamic from 'next/dynamic';
 
 export const LoadableMain = dynamic(() =>
-  import(/* webpackChunkName: "Main" */ './index')
-)
+  import(/* webpackChunkName: "Body" */ './index')
+);
 
 LoadableMain.displayName = 'LoadableMain';
