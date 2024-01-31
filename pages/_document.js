@@ -36,7 +36,7 @@ export default class AppDocument extends Document {
   render() {
     return (
       <Html>
-        <AppHead />
+        <Head />
         <Main />
         <NextScript />
       </Html>
